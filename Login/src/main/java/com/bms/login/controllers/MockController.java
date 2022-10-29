@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/api/test")
-public class TestController {
+public class MockController {
 
     @GetMapping("/all")
     public String allAccess(){
